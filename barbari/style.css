@@ -1,0 +1,456 @@
+/*
+Theme name:Zarbaf Bar
+Theme URL:htpp://web-designer-center.ir
+Description:This is a HTML theme for auto bar web site.
+Version:1.0
+Author:Saeed Hanafi
+Author URL:htpp://web-designer-center.ir
+*/
+
+body{
+    direction: rtl;
+    font-size: 62.5%;
+    font-family: yekan;
+}
+/* Start Mobile Menu */
+/* ----------------------------------------------------------------------*/
+div.mob-menu{
+    width: 100%;
+    height: 2rem;
+    background-color: slateblue;
+    display: none;
+}
+div.mob-menu a.icon{
+    margin: 1rem;
+    color: white;
+    font-size: 1.2rem;
+}
+#mob-menu1{
+    width: 100%;
+    height: 7rem;
+    background-color: slateblue;
+    border-radius: 0rem 0rem 1rem 1rem;
+    display: none;
+}
+#mob-menu1 ul{
+    list-style: none;
+    margin: 0rem;
+    padding: 0rem;
+}
+#mob-menu1 ul li{
+    margin-right: 1rem;
+}
+#mob-menu1 ul li a{
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+#mob-menu1 ul li a:hover{
+    color: tomato;
+}
+.logo-img-mob{
+    height: 2rem;
+}
+span#logo-mob{
+    float: left;
+}
+/* ----------------------------------------------------------------------*/
+/* End Mobile Menu */
+/* Start main menu */
+/*------------------------------------------------------------------------*/
+div.main-menu{
+    width: 100%;
+    height: 4rem;
+    background-color: slateblue;
+    border-radius: 1rem;
+    position: fixed;
+    top: 0rem;
+    z-index: 100000;
+}
+div.main-menu ul{
+    display: inline;
+    font-family: yekan;
+    font-weight: bold;
+    font-size: 1.5rem;
+    list-style: none;
+}
+div.main-menu ul li{
+    display: inline-block;
+    margin: 1%;
+}
+div.main-menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+div.main-menu ul li a:hover{
+    color: tomato;
+}
+img.logo-img{
+    width: 6rem;
+    height: 100%;
+    border-radius: 1rem;
+}
+span#logo{
+    float: left;
+    margin-top: -82px;
+}
+
+/* Veeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeery Importaaaaaant */
+
+/* Change Wordpress codes */
+.collapse:not(.show){
+    display: block;
+}
+
+/* Veeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeery Importaaaaaant */
+
+/* --------------------------------------------------------------------------------------*/
+/* End main menu */
+
+/* Start First picture */
+/*---------------------------------------------------------------------------------------*/
+
+div.pic-box{
+    width: 100%;
+    height: 30rem;
+    margin-top: 4.2rem;
+}
+img.pic{
+    width: 100%;
+    height: 30rem;
+}
+/* ---------------------------------------------------------------------------------------*/
+/* End First Picture */
+/* Start short description division */
+/* ---------------------------------------------------------------------------------------*/
+div.short-description{
+    text-align: center;
+    margin: 2rem;
+}
+div.short-description p{
+    font-size: 1rem;
+}
+div.short-description h1::after{
+    content: "";
+    border-top: 2px solid #dfdfdf;
+    position: absolute;
+    top: 38rem;
+    right: 2rem;
+    width: 35%;
+}
+div.short-description h1::before{
+    content: "";
+    border-top: 2px solid #dfdfdf;
+    position: absolute;
+    top: 38rem;
+    left: 2rem;
+    width: 35%;
+}
+/* -------------------------------------------------------------------------------------------*/
+/* End short description division */
+/* Start boxes */
+/* ------------------------------------------------------------------------------------------*/
+.img-box1 , .img-box2 , .img-box3 , .img-box4{
+    height: 11rem;
+}
+/*---------------------------------------------------------------------------------------------*/
+/* End boxes */
+/* Start Footer */
+/* -------------------------------------------------------------------------------------------*/
+div.footer{
+    height:11rem;
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+div.footer1 p{
+    color: tomato;
+}
+/* -------------------------------------------------------------------------------------------*/
+/* End Footer */
+/* Start responsive with media query */
+/* -------------------------------------------------------------------------------------------*/
+/* Extra small devices (phones, 575px and down) */
+@media only screen and (max-width: 575px) {
+    /* Start mobile menu */
+/*------------------------------------------------------------------------*/
+    div.main-menu{
+        display: none;
+    }
+    div.mob-menu{
+        display: block;
+    }    
+    /* --------------------------------------------------------------------------------------*/
+/* End mobile menu */
+/* Start First picture */
+    /*---------------------------------------------------------------------------------------*/
+
+    div.pic-box{
+        height: 15rem;
+        margin-top: 0.2rem;
+    }
+    img.pic{
+        height: 15rem;
+    }
+    /* ---------------------------------------------------------------------------------------*/
+/* End First Picture */
+    /* Start short description division */
+/* ---------------------------------------------------------------------------------------*/
+    div.short-description h1::after{
+        display: none;
+    }
+    div.short-description h1::before{
+        display: none;
+    }
+    div.short-description p {
+        font-size: 0.8rem;
+    }
+    /* -------------------------------------------------------------------------------------------*/
+/* End short description division */
+    /* Start Footer */
+/* -------------------------------------------------------------------------------------------*/
+    div.footer2{
+        display: none;
+    }
+    div.footer{
+        height: 17rem;
+    }
+    /* -------------------------------------------------------------------------------------------*/
+/* End Footer */
+}
+/*-------------------------------------------------------------------------------------------------*/
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+ /* Start mobile menu */
+/*------------------------------------------------------------------------*/
+     div.main-menu{
+        display: none;
+    }
+    div.mob-menu{
+        display: block;
+        height: 3rem;
+    }   
+    .logo-img-mob{
+        width: 7rem;
+        height: 3rem;
+    }
+    div.mob-menu a.icon{
+        font-size: 2rem;
+    }
+    #mob-menu1 ul li a{
+        font-size: 1.5rem;
+    }
+    #mob-menu1{
+        height: 10rem;
+    }
+    /* --------------------------------------------------------------------------------------*/
+/* End mobile menu */
+/* Start First picture */
+    /*---------------------------------------------------------------------------------------*/
+
+    div.pic-box{
+        height: 20rem;
+        margin-top: 0.2rem;
+    }
+    img.pic{
+        height: 20rem;
+    }
+    /* ---------------------------------------------------------------------------------------*/
+/* End First Picture */
+    /* Start short description division */
+/* ---------------------------------------------------------------------------------------*/
+    div.short-description h1::before , div.short-description h1::after{
+        top: 27rem;
+        width: 20%;
+    }
+    div.short-description p {
+        font-size: 0.8rem;
+    }
+    /* -------------------------------------------------------------------------------------------*/
+/* End short description division */
+    /* Start Footer */
+/* -------------------------------------------------------------------------------------------*/
+    div.footer2{
+        display: none;
+    }
+    div.footer{
+        height: 12rem;
+    }
+    /* -------------------------------------------------------------------------------------------*/
+/* End Footer */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+     /* Start main menu */
+/*------------------------------------------------------------------------*/
+    div.main-menu{
+        height: 3rem;
+        display: block;
+    }
+    div.main-menu ul{
+        line-height: 1.2rem;
+        padding-right: 1rem;
+    }
+    span#logo{
+        margin-top: -40px;
+        float: left;
+    }
+    img.logo-img{
+        width: 6rem;
+    }
+    div.mob-menu{
+        display: none;
+    }  
+    /* --------------------------------------------------------------------------------------*/
+/* End main menu */
+/* Start First picture */
+    /*---------------------------------------------------------------------------------------*/
+
+    div.pic-box{
+        height: 27rem;
+        margin-top: 3.1rem;
+    }
+    img.pic{
+        height: 27rem;
+    }
+    /* ---------------------------------------------------------------------------------------*/
+/* End First Picture */
+    /* Start short description division */
+/* ---------------------------------------------------------------------------------------*/
+    div.short-description h1::before , div.short-description h1::after{
+        top: 34rem;
+        width: 28%;
+    }
+    div.short-description p {
+        font-size: 1.1rem;
+    }
+    /* -------------------------------------------------------------------------------------------*/
+/* End short description division */
+    /* Start Footer */
+/* -------------------------------------------------------------------------------------------*/
+    div.footer2{
+        display: block;
+    }
+    div.footer{
+        height: 14rem;
+    }
+    /* -------------------------------------------------------------------------------------------*/
+/* End Footer */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+      /* Start main menu */
+/*------------------------------------------------------------------------*/
+    div.main-menu{
+        height: 3rem;
+    }
+    div.main-menu ul{
+        line-height: 1.6rem;
+    }
+    span#logo{
+        margin-top: -50px;
+        float: left;
+    }
+    img.logo-img{
+        width: 6rem;
+        height: 3rem;
+    }
+    /* --------------------------------------------------------------------------------------*/
+/* End main menu */
+/* Start First picture */
+    /*---------------------------------------------------------------------------------------*/
+
+    div.pic-box{
+        height: 27rem;
+        margin-top: 3.1rem;
+    }
+    img.pic{
+        height: 27rem;
+    }
+    /* ---------------------------------------------------------------------------------------*/
+/* End First Picture */
+    /* Start short description division */
+/* ---------------------------------------------------------------------------------------*/
+    div.short-description h1::before , div.short-description h1::after{
+        top: 34rem;
+        width: 28%;
+    }
+    div.short-description p {
+        font-size: 1.1rem;
+    }
+    /* -------------------------------------------------------------------------------------------*/
+/* End short description division */
+    /* Start Footer */
+/* -------------------------------------------------------------------------------------------*/
+    div.footer2{
+        display: block;
+    }
+    div.footer{
+        height: 13rem;
+    }
+    /* -------------------------------------------------------------------------------------------*/
+/* End Footer */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+      /* Start main menu */
+/*------------------------------------------------------------------------*/
+    div.main-menu{
+        height: 4rem;
+    }
+    div.main-menu ul{
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+    }
+    span#logo{
+        margin-top: -65px;
+        float: left;
+    }
+    img.logo-img{
+        width: 11rem;
+        height: 3rem;
+    }
+    /* --------------------------------------------------------------------------------------*/
+/* End main menu */
+/* Start First picture */
+    /*---------------------------------------------------------------------------------------*/
+
+    div.pic-box{
+        height: 33rem;
+        margin-top: 4.1rem;
+    }
+    img.pic{
+        height: 33rem;
+    }
+    /* ---------------------------------------------------------------------------------------*/
+/* End First Picture */
+    /* Start short description division */
+/* ---------------------------------------------------------------------------------------*/
+    div.short-description h1::before , div.short-description h1::after{
+        top: 41rem;
+        width: 35%;
+    }
+    div.short-description p {
+        font-size: 1.2rem;
+    }
+    /* -------------------------------------------------------------------------------------------*/
+/* End short description division */
+    /* Start Footer */
+/* -------------------------------------------------------------------------------------------*/
+    div.footer2{
+        display: block;
+    }
+    div.footer{
+        height: 13rem;
+    }
+    /* -------------------------------------------------------------------------------------------*/
+/* End Footer */
+}
+/* -------------------------------------------------------------------------------------------*/
+/* End responsive with media query */

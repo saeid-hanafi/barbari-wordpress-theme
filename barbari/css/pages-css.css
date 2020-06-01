@@ -1,0 +1,245 @@
+/* Start About page's css */
+/*------------------------------------------------------------------*/
+.content-about{
+    font-family: yekan;
+}
+.pic-about img{
+    width: 100%;
+}
+/*------------------------------------------------------------------*/
+/* End About page's css */
+
+/* Start Contact page's css */
+/*------------------------------------------------------------------*/
+.contact-content{
+    margin-top: 5rem;
+}
+.cont-form textarea ,.cont-form input{
+    width: 50rem;
+}
+.cont-form label{
+    font-size: 1rem;
+} 
+/*------------------------------------------------------------------*/
+/* End Contact page's css */
+
+/* Start Colleague page's css */
+/*------------------------------------------------------------------*/
+.colleague1{
+    margin-top: 5rem;
+}
+.colleague2{
+    font-size: 1rem;
+}
+.colleague2 table{
+    text-align: center;
+    background-color: slateblue;
+    width: 100%;
+}
+.colleague2 table td{
+    border: 2px solid gray;
+}
+.colleague2 a{
+    color: white;
+    text-decoration: none;
+}
+.colleague2 a:hover{
+    color:tomato ;
+}
+/*------------------------------------------------------------------*/
+/* End Colleague page's css */
+
+/* Start east & north & west & center page's css */
+/*------------------------------------------------------------------*/
+.east-box ,.north-box , .west-box , .center-box{
+    margin-top: 5rem;
+}
+.east-box p , .north-box p ,.west-box p , .center-box p{
+    font-size: 1.3rem;
+}
+/*------------------------------------------------------------------*/
+/* End east & north & west & center page's css */
+
+/* Responsive's Media Queries */
+@media screen and ( min-width: 250px ){
+
+    /* Start About page's css */
+    .content-about{
+        font-size: 0.7rem;
+        margin-top: 1rem;
+    }
+    /* End About page's css */
+
+    /* Start Contact page's css */
+    .contact-content{
+        margin-top: 1rem;
+    }
+    .cont-form textarea ,.cont-form input{
+        width: 15rem;
+    }
+    /* End Contact page's css */
+
+    /* Start Colleague page's css */
+    .colleague2{
+        font-size: 0.5rem;
+    }
+    .colleague1{
+        margin-top: 1rem;
+    }
+    /* End Colleague page's css */
+
+    /* Start east & north & west & center page's css */
+    .east-box ,.north-box , .west-box , .center-box{
+        margin-top: 1rem;
+    }
+    .east-box p , .north-box p ,.west-box p , .center-box p{
+        font-size: 0.7rem;
+    }
+    /* End east & north & west & center page's css */
+}
+@media screen and ( min-width: 575px ){
+
+    /* Start Contact page's css */
+    .contact-content{
+        margin-top: 1rem;
+    }
+    .cont-form textarea ,.cont-form input{
+        width: 35rem;
+    }
+    /* End Contact page's css */
+
+    /* Start Colleague page's css */
+    .colleague2{
+        font-size: 0.9rem;
+    }
+    .colleague1{
+        margin-top: 1rem;
+    }
+    /* End Colleague page's css */
+
+    /* Start east & north & west & center page's css */
+    .east-box ,.north-box , .west-box , .center-box{
+        margin-top: 1rem;
+    }
+    .east-box p , .north-box p ,.west-box p , .center-box p{
+        font-size: 0.8rem;
+    }
+    /* End east & north & west & center page's css */
+}
+@media screen and ( min-width: 768px ){
+
+    /* Start About page's css */
+    .content-about{
+        font-size: 1rem;
+        margin-top: 4rem;
+    }
+    /* End About page's css */
+
+    /* Start Contact page's css */
+    .contact-content{
+        margin-top: 4rem;
+    }
+    .cont-form textarea ,.cont-form input{
+        width: 44rem;
+    }
+    .cont-form label{
+        font-size: 1rem;
+    } 
+    /* End Contact page's css */
+
+    /* Start Colleague page's css */
+    .colleague2{
+        font-size: 1.1rem;
+    }
+    .colleague1{
+        margin-top: 4rem;
+    }
+    /* End Colleague page's css */
+
+    /* Start east & north & west & center page's css */
+    .east-box ,.north-box , .west-box , .center-box{
+        margin-top: 4rem;
+    }
+    .east-box p , .north-box p ,.west-box p , .center-box p{
+        font-size: 1rem;
+    }
+    /* End east & north & west & center page's css */
+}
+@media screen and ( min-width: 992px ){
+
+    /* Start About page's css */
+    .content-about{
+        font-size: 1rem;
+    }
+    /* End About page's css */
+
+    /* Start Contact page's css */
+    .contact-content{
+        margin-top: 4rem;
+    }
+    .cont-form textarea ,.cont-form input{
+        width: 59rem;
+    }
+    .cont-form label{
+        font-size: 1rem;
+    } 
+    /* End Contact page's css */
+
+    /* Start Colleague page's css */
+    .colleague2{
+        font-size: 1.3rem;
+    }
+    .colleague1{
+        margin-top: 4rem;
+    }
+    /* End Colleague page's css */
+
+    /* Start east & north & west & center page's css */
+    .east-box ,.north-box , .west-box , .center-box{
+        margin-top: 4rem;
+    }
+    .east-box p , .north-box p ,.west-box p , .center-box p{
+        font-size: 1.2rem;
+    }
+    /* End east & north & west & center page's css */
+}
+@media screen and ( min-width: 1200px ){
+
+    /* Start About page's css */
+    .content-about{
+        font-size: 1.1rem;
+        margin-top: 5rem;
+    }
+    /* End About page's css */
+
+    /* Start Contact page's css */
+    .contact-content{
+        margin-top: 5rem;
+    }
+    .cont-form textarea ,.cont-form input{
+        width: 72rem;
+    }
+    .cont-form label{
+        font-size: 1rem;
+    } 
+    /* End Contact page's css */
+
+    /* Start Colleague page's css */
+    .colleague2{
+        font-size: 1.5rem;
+    }
+    .colleague1{
+        margin-top: 5rem;
+    }
+    /* End Colleague page's css */
+
+    /* Start east & north & west & center page's css */
+    .east-box ,.north-box , .west-box , .center-box{
+        margin-top: 5rem;
+    }
+    .east-box p , .north-box p ,.west-box p , .center-box p{
+        font-size: 1.5rem;
+    }
+    /* End east & north & west & center page's css */
+
+}
